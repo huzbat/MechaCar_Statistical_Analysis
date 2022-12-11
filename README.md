@@ -13,7 +13,7 @@ R-squared value of 0.7149, nearly 72% of MechaCar prototypes' mpg variability  a
 Variation for suspension coils CANNOT exceed 100 pounds/(inch)^2. 
 
 
-![](Resources/total_summary.PNG)
+![](Resources/total_summary.png)
 
 Vriance at 62.29 falls well under 100 pounds/(inch)^2. 
 
@@ -21,7 +21,7 @@ Lot 1 the the most accurate with a variance of 0.98.
 Lot 2 is semi-accurate with a variance of 7.47
 Lot 3 variance is greater than 100 pounds/(inch)^2 with a variance of 170.27!
 
-![](Resources/lot_summary.PNG)
+![](Resources/lot_summary.png)
 
 Lot 3's suspension coils needs to be cross examined.
 
@@ -33,21 +33,21 @@ HCheck for statistical variation across all of MechaCar's manufacturing lots com
 
 *All Lots*
 
-![](Resources/T_All.PNG)
+![](Resources/T_All.png)
 
     -P-value was 0.06028 which is above the significance level of 0.05, therefore it is not statistically different from population mean and we do *not have* sufficient evidence to reject the null hypothesis.
 
 *Each Individual Lot*
 
-![](Resources/T_Lot1.PNG)
+![](Resources/T_Lot1.png)
 
     -Lot 1's p-value of 1 is significantly greater than significance level of 0.05, therefore it is not statistically different from population mean and we do *not have* sufficient evidence to reject the null hypothesis.
 
-![](Resources/T_Lot2.PNG)
+![](Resources/T_Lot2.png)
 
     -Lot 2's p-value of 0.6072 is greater than significance level of 0.05, therefore it is not statistically different from population mean and we do *not have* sufficient evidence to reject the null hypothesis.
 
-![](Resources/T_Lot3.PNG)
+![](Resources/T_Lot3.png)
 
     -Lot 3's p-value of 0.04168 is less than significance level of 0.05, therefore it is statistically different from population mean and we do *have* sufficient evidence to reject the null hypothesis.
 
